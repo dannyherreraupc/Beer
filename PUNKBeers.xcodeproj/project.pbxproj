@@ -12,6 +12,8 @@
 		3049B0161F1FDCBB000920F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3049B0141F1FDCBB000920F6 /* Main.storyboard */; };
 		3049B0181F1FDCBC000920F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3049B0171F1FDCBC000920F6 /* Assets.xcassets */; };
 		3049B01B1F1FDCBC000920F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3049B0191F1FDCBC000920F6 /* LaunchScreen.storyboard */; };
+		3049B0291F201F55000920F6 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3049B0281F201F55000920F6 /* TableViewCell.swift */; };
+		3049B02B1F20248A000920F6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3049B02A1F20248A000920F6 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3049B0171F1FDCBC000920F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3049B01A1F1FDCBC000920F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3049B01C1F1FDCBC000920F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3049B0281F201F55000920F6 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		3049B02A1F20248A000920F6 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				3049B0171F1FDCBC000920F6 /* Assets.xcassets */,
 				3049B0191F1FDCBC000920F6 /* LaunchScreen.storyboard */,
 				3049B01C1F1FDCBC000920F6 /* Info.plist */,
+				3049B0281F201F55000920F6 /* TableViewCell.swift */,
+				3049B02A1F20248A000920F6 /* DetailViewController.swift */,
 			);
 			path = PUNKBeers;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3049B0131F1FDCBB000920F6 /* ViewController.swift in Sources */,
+				3049B0291F201F55000920F6 /* TableViewCell.swift in Sources */,
 				3049B0111F1FDCBB000920F6 /* AppDelegate.swift in Sources */,
+				3049B02B1F20248A000920F6 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +305,7 @@
 				3049B0211F1FDCBC000920F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
